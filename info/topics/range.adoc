@@ -17,7 +17,7 @@ In Ruby, Ranges are not represented internally as lists i.e the sequence `1..100
 If you need to, you can convert a range to a list using the `to_a` method.
 
 ```ruby
-(1..10).to_a -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+(1..10).to_a -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 === Try yourself
