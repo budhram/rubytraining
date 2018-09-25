@@ -11,7 +11,7 @@ toc::[]
 
 A **Symbol** looks like a variable name but it's prefixed with a colon(`:`).
 
-```ruby
+```ruby {.line-numbers}
 :abc
 :abc.class                      # Symbol
 :abc.object_id                  # 1282588 (some no)
@@ -33,7 +33,7 @@ This can save both time and memory.
 
 === Try yourself
 
-```ruby
+```ruby {.line-numbers}
 puts "string".object_id
 puts "string".object_id
 puts :symbol.object_id

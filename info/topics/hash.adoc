@@ -19,7 +19,7 @@ NOTE: The values in a Hash can be objects of any type. Hash default value is `ni
 === Try yourself
 
 - Symbol as key
-```ruby
+```ruby {.line-numbers}
 h1 = { :font_size=> 10, :font_family => "Arial" }
 puts 'length => ', h1.length
 puts h1[:font_size]
@@ -27,7 +27,7 @@ puts h1
 ```
 
 - String as key
-```ruby
+```ruby {.line-numbers}
 h2 = {'dog'=> 'canine', 'cat' => 'feline', 'donkey' => 'asinine', 12 => 'dodecine'}
 puts 'length => ', h2.length
 puts h2['dog']
@@ -36,7 +36,7 @@ puts h2[12]
 ```
 
 - Value update
-```ruby
+```ruby {.line-numbers}
 h1 = { abc: "foo" }             # {:abc=>"foo"}
 h1[:abc]						# "foo"
 h1[:abc] = "bar"				# "bar"

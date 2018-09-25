@@ -23,7 +23,7 @@ Any method can be called with a block as an implicit argument. Inside the method
 === Try yourself
 
 - Invoke block using `yield`
-```ruby
+```ruby {.line-numbers}
 def call_block
   puts 'Start of method'
   # you can call the block using the yield keyword
@@ -34,7 +34,7 @@ end
 ```
 
 - Invoke block using `yield`
-```ruby
+```ruby {.line-numbers}
 call_block { puts 'In the block' }
 # don't pass block to method
 
@@ -45,7 +45,7 @@ end
 ```
 
 - Inspect block using `block_given?`
-```ruby
+```ruby {.line-numbers}
 def try
   if block_given?           // <1>
     yield
@@ -61,7 +61,7 @@ try { puts 'hello' } # => "hello"
 <<<
 
 - Block variables
-```ruby
+```ruby {.line-numbers}
 x = 10
 5.times do |x|
   puts "x inside the block: #{x}"
@@ -71,7 +71,7 @@ puts "x outside the block: #{x}"
 ```
 
 - Understanding outer and inner block variables
-```ruby
+```ruby {.line-numbers}
 x = 10 // <1>
 5.times do |y|
   x = y // <2>
