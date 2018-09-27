@@ -37,10 +37,10 @@ puts h2[12]
 
 - Value update
 ```ruby
-h1 = { abc: "foo" }             # {:abc=>"foo"}
+h1 = { abc: "foo" } # {:abc=>"foo"}
 h1[:abc]						# "foo"
-h1[:abc] = "bar"				# "bar"
-h1[:abc]						#> "bar"
+h1[:abc] = "bar"		# "bar"
+h1[:abc]						# "bar"
 ```
 
 WARNING: The **key** in the format `{symbol: value}` can't be numeric. Eg. `{1: 'one'}` will not work but `{1 => 'one'}` will work.
