@@ -17,11 +17,11 @@ Every slot in the list acts like a variable: you can see what object a particula
 === Notes
 
 - You can make an array by using square brackets, `[ ]`
-- First value in an array has index 0
-- The `size` and `length` methods return the number of elements in an array
-- Negative index values count from the end of the array, so last element is having index `-1`
-- `nil` is return if non-existent index no is being accessed ( index >= size )
-- Mutable and are dynamically resizable, append elements to them and they grow as needed
+- First value in an array has index `0`
+- The `size` and `length` methods return the number of elements of the array
+- Negative index values count from the end of the array, so the last element has an index of `-1`
+- `nil` is returned if a non-existent index is being accessed, ( index >= size )
+- Mutable and are dynamically re-sizable, append elements to them and they grow as needed
 
 [[ruby-array-code-snippets]]
 === Try yourself
@@ -49,12 +49,12 @@ puts name[2]
 puts name[3]
 # the next one outputs nil
 # nil is Ruby's way of saying nothing
-puts name[4]            // <1>
+puts name[4]            # <1>
 name[4] = 'Pune'
 puts name[4]
-name[5] = 4.33          // <2>
+name[5] = 4.33          # <2>
 puts name[5]
-name[6] = [1, 2, 3]     // <2>
+name[6] = [1, 2, 3]     # <2>
 puts name[6]
 ```
 <1> Output is nil as it's a way of saying nothing in Ruby
@@ -71,7 +71,7 @@ puts 'first element of array ==>>', newarr.first
 puts 'last element of array ==>>', newarr.last
 ```
 
-- Iterator on Array
+- Iteration on Array
 ```ruby
 locations = ['Pune', 'Mumbai', 'Bangalore']
 
@@ -83,13 +83,14 @@ end
 
 - A small task
 ```ruby
-# Delete an entry in the middle and shift the remaining entries
-locations.delete('Mumbai')
+# Delete an entry in the middle and "shift" the remaining entries
+locations.delete('Mumbai') # <1>
 locations.each do |loc|
   puts 'I love ' + loc + '!'
   puts "Don't you?"
 end
 ```
+<1> Not to be confused with the `shift` method.
 
 === Next Topic
 
@@ -99,6 +100,6 @@ end
 
 {previous-topic}
 
-=== Table of Content
+=== Table of Contents
 
 {topic-table}
