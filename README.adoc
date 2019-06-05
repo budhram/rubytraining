@@ -23,7 +23,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-Brought to you by link:https://twitter.com/budhrg[Budh Ram Gurung] & link:https://twitter.com/kotp[Victor Goff].
+Brought to you by link:https://coolbrg.me/budhrg[Budh Ram Gurung].
 
 '''
 toc::[]
