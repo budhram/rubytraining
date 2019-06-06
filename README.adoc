@@ -61,7 +61,7 @@ Find more details about above quote link:http://blog.steveklabnik.com/posts/2011
 - link:info/topics/history-of-ruby.adoc#[History of Ruby]
 - link:info/topics/ruby-features.adoc#[Ruby Features]
 - link:info/topics/hello-world.adoc#[Hello World]
-- link:info/topics/num-const-string-var.adoc#[Numbers, Constants, Strings, Variables]
+- link:info/topics/datatypes.adoc#[Datatypes]
 - link:info/topics/naming-conventions.adoc#[Naming conventions]
 - link:info/topics/scope.adoc#[Scope]
 
