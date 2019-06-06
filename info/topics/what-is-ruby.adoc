@@ -1,8 +1,7 @@
 = Topic Name
 :toc: macro
 :toclevels: 2
-:next-topic: Proceed to link:todo.adoc#[Todo]
-:previous-topic: Go back to link:todo.adoc#[Todo]
+:next-topic: Proceed to link:history-of-ruby.adoc#[History of Ruby]
 :topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]
@@ -67,10 +66,6 @@ The principle of least surprise means principle of least my surprise. And it mea
 === Next Topic
 
 {next-topic}
-
-=== Previous Topic
-
-{previous-topic}
 
 === Table of Content
 

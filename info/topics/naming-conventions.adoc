@@ -1,8 +1,8 @@
 = Topic Name
 :toc: macro
 :toclevels: 2
-:next-topic: Proceed to link:todo.adoc#[Todo]
-:previous-topic: Go back to link:todo.adoc#[Todo]
+:next-topic: Proceed to link:scope.adoc#[Scope]
+:previous-topic: Go back to link:num-const-string-var.adoc#[Numbers, Constant, Strings, Variables]
 :topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]

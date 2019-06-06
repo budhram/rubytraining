@@ -2,6 +2,7 @@
 :toc: macro
 :toclevels: 2
 :next-topic: Proceed to link:array.adoc#[Array]
+:previous-topic: Proceed to link:ruby-methods.adoc#[Ruby Methods]
 :topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]
@@ -86,6 +87,10 @@ puts "x outside the block: #{x}" // <3>
 === Next Topic
 
 {next-topic}
+
+=== Previous Topic
+
+{previous-topic}
 
 === Table of Content
 

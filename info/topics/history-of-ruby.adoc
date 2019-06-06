@@ -1,8 +1,8 @@
 = Topic Name
 :toc: macro
 :toclevels: 2
-:next-topic: Proceed to link:todo.adoc#[Todo]
-:previous-topic: Go back to link:todo.adoc#[Todo]
+:next-topic: Proceed to link:ruby-features.adoc#[Ruby Features]
+:previous-topic: Go back to link:what-is-ruby.adoc#[What is Ruby]
 :topic-table: Go to link:../../README.adoc#[Table of Content]
 
 toc::[]
