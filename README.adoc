@@ -57,25 +57,25 @@ Find more details about above quote link:http://blog.steveklabnik.com/posts/2011
 
 == Ruby Basics - Section 1
 
-- link:info/topics/what-is-ruby.adoc#[What is Ruby]
-- link:info/topics/history-of-ruby.adoc#[History of Ruby]
-- link:info/topics/ruby-features.adoc#[Ruby Features]
-- link:info/topics/hello-world.adoc#[Hello World]
-- link:info/topics/datatypes.adoc#[Datatypes]
-- link:info/topics/naming-conventions.adoc#[Naming conventions]
-- link:info/topics/scope.adoc#[Scope]
+- xref:info/topics/what-is-ruby.adoc#[What is Ruby]
+- xref:info/topics/history-of-ruby.adoc#[History of Ruby]
+- xref:info/topics/ruby-features.adoc#[Ruby Features]
+- xref:info/topics/hello-world.adoc#[Hello World]
+- xref:info/topics/datatypes.adoc#[Datatypes]
+- xref:info/topics/naming-conventions.adoc#[Naming conventions]
+- xref:info/topics/scope.adoc#[Scope]
 
 NOTE: Short Break
 
 == Ruby Basics - Section 2
 
-* link:info/topics/get-input-from-user.adoc#[Getting input from User]
-* link:info/topics/ruby-methods.adoc#[Ruby Methods]
-* link:info/topics/block.adoc#[Block]
-* link:info/topics/array.adoc#[Array]
-* link:info/topics/range.adoc#[Range]
-* link:info/topics/symbol.adoc#[Symbol]
-* link:info/topics/hash.adoc#[Hash]
+* xref:info/topics/get-input-from-user.adoc#[Getting input from User]
+* xref:info/topics/ruby-methods.adoc#[Ruby Methods]
+* xref:info/topics/block.adoc#[Block]
+* xref:info/topics/array.adoc#[Array]
+* xref:info/topics/range.adoc#[Range]
+* xref:info/topics/symbol.adoc#[Symbol]
+* xref:info/topics/hash.adoc#[Hash]
 
 NOTE: Short Break
 
